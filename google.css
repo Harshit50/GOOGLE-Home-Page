@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .google{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(5, 5, 5);
+    font-size: 90px;
+    padding-bottom: 10px;
+    letter-spacing: -10px;
+  }
+  
+  .container{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .search{
+    height: 50px;
+    width: 90%;
+    border-radius: 25px 25px;
+    padding-left: 45px;
+    font-size: 15px;
+    box-shadow: none;
+    border: 0.1px solid rgb(197, 197, 197);
+    }
+  
+  
+  
+  i{
+    position: absolute;
+    padding-top: 17px;
+    padding-left: 20px;
+    color: gray;
+    
+  }
+  
+  .fas{
+  right: 20%;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .btn{
+    height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+    margin-right:15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+  }
+  
+  .dots{
+    height: 40px;
+    width:40px;
+     cursor: pointer;
+    border-radius: 50%;
+    border-style: none;
+  }
+  
+  btn:hover{
+  outline: 1px solid black;
+  }
+  
+  .navbar{
+  padding-top: 15px;
+  line-height: 40px;
+  }
+  
+  .navbar-right{
+    float: right;
+  }
+  
+  a{
+    padding: 8px;
+    text-decoration: none;
+    color: gray;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .signIn{
+      height: 40px;
+      color: white;
+      background: rgb(8, 148, 235);
+      padding-right:20px;
+      padding-left: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      border-style: none;
+    }
+  
+    .signIn:hover{
+      background: #24A0ED;
+    }
+  
+    img{
+      height: 15px;
+      width: 15px;
+    }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(218, 211, 211);
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .footer-left{
+    float: left;
+  
+  }
+  
+  .footer-right{
+    float: right;
+  }
